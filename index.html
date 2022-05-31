@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bukhara</title>
+
+        <!--  link Font aaawesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+            <!-- custom css file link       -->
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+            <section class="flex">
+                <a href="#home" class="logo">Bukhara Fass Food</a>
+                <nav class="navbar">
+                    <a href="#home">home</a>
+                    <a href="#about">about</a>
+                    <a href="#menu">menu</a>
+                    <a href="#order">order</a>
+                    <a href="#about">faq</a>
+                </nav>
+
+                <div class="icons">
+                    <div id="menu-btn" class="fas fa-bars"></div>
+                    <div id="menu-user"  class="fas fa-user"></div>
+                    <div id="order-btn" class="fas fa-box"></div>
+                    <div id="cart-btn" class="fas fa-shopping-cart"><span>(4)</span></div>
+
+
+                </div>
+            </section>
+
+
+
+    </header>
+
+        <div class="user-account">
+                <section>
+                    <div id="close-account"> <span>close</span></div>
+                    <div class="user">
+                        <p><span>you are not logged in now!</span></p>
+                    </div>
+
+                    <div class="display-orders">
+                        <p>lavash-1 <span>($3/ -x 2)</span></p>
+                        <p>lavash-3 <span>($2/ -x 1)</span></p>
+                        <p>lavash-4 <span>($4/ -x 4)</span></p>
+                        <p>lavash-2 <span>($3/ -x 1)</span></p>
+
+                    </div>
+
+                    <div class="flex">
+                        <form action="" method="post">
+                            <h3>login now</h3>
+                            <input type="email" name="email" required class="box" placeholder="enter your email" maxlength="20">
+                            <input type="password" name="password" required class="box" placeholder="enter your password" maxlength="20">
+                            <input type="submit" value="login now" name="login" class="btn">
+                        </form>
+
+                        <form action="" method="post">
+                            <h3>registr now</h3>
+
+                            <input type="text" name="name" required class="box" placeholder="enter your name" maxlength="20">
+                            <input type="email" name="email" required class="box" placeholder="enter your email" maxlength="20">
+
+                            <input type="password" name="password" required class="box" placeholder="enter your password" maxlength="20">
+                            <input type="password" name="spass" required class="box" placeholder="confirm your password" maxlength="20">
+
+
+                            <input type="submit" value="register now" name="register" class="btn">
+                        </form>
+                    </div>
+                </section>
+        </div>
+
+    <div class="my-orders">
+        <section>
+            <div id="close-orders"> <span>close</span> </div>
+            <h3 class="title">my orders</h3>
+            <div class="box">
+                <p>placed on <span>06/04/2020</span></p>
+                <p>name <span> shaikh anas</span></p>
+                <p>number : <span>1234567890</span></p>
+                <p>adress: <span> flat no. 123, bulding no. 2, jogeshwari, mumbai, india-400104</span></p>
+                <p>payment method: <span>cash on delivery</span></p>
+                <p>your orders : <span>pizza 01 $3/- x 2 pizza 03 $2/- x 1, pizza 06 $4/- x 4, pizza 07, $2/ - x 1</span></p>
+                <p>total price : <span>$11/-</span></p>
+                <p>payment status : <span style="color: var(--red);">pending</span> </p>
+            </div>
+
+            <div class="box">
+                <p>placed on <span>06/04/2020</span></p>
+                <p>name <span> shaikh anas</span></p>
+                <p>number : <span>1234567890</span></p>
+                <p>adress: <span> flat no. 123, bulding no. 2, jogeshwari, mumbai, india-400104</span></p>
+                <p>payment method: <span>cash on delivery</span></p>
+                <p>your orders : <span>pizza 01 $3/- x 2 pizza 03 $2/- x 1, pizza 06 $4/- x 4, pizza 07, $2/ - x 1</span></p>
+                <p>total price : <span>$11/-</span></p>
+                <p>payment status : <span style="color: var(--red);">pending</span> </p>
+            </div>
+
+        </section>
+
+    </div>
+
+<div class="shopping-cart">
+    <section>
+        <div id="close-cart"><span>close</span></div>
+        <div class="box">
+            <a href="#" class="fas fa-times"></a>
+            <img src="images/1.png" alt="">
+            <div class="content">
+                <p>pizza-1 <span>($3/ - x 2)</span></p>
+                <form action="" method="post">
+                    <input type="number" class="qty" name="qty" min="1" value="2" max="100">
+                    <button type="submit" class="fas fa-edit" name="update_qty"></button>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <a href="#" class="fas fa-times"></a>
+            <img src="images/1.png" alt="">
+            <div class="content">
+                <p>pizza-1 <span>($3/ - x 2)</span></p>
+                <form action="" method="post">
+                    <input type="number" class="qty" name="qty" min="1" value="2" max="100">
+                    <button type="submit" class="fas fa-edit" name="update_qty"></button>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <a href="#" class="fas fa-times"></a>
+            <img src="images/1.png" alt="">
+            <div class="content">
+                <p>pizza-1 <span>($3/ - x 2)</span></p>
+                <form action="" method="post">
+                    <input type="number" class="qty" name="qty" min="1" value="2" max="100">
+                    <button type="submit" class="fas fa-edit" name="update_qty"></button>
+                </form>
+            </div>
+        </div>
+        <a href="#order" class="btn"> order now!</a>
+    </section>
+</div>
+
+
+    <div class="home-bg">
+            <section class="home">
+            <div class="slide-container">
+                <div class="slide active">
+                    <div class="image">
+                        <img src="images/1.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>homemade Pepperoni Pizza</h3>
+                        <div class="fas fa-angle-left" onclick="prev()"></div>
+                        <div class="fas fa-angle-right" onclick="next()"></div>
+                    </div>
+                </div>
+
+
+                <div class="slide">
+                    <div class="image">
+                        <img src="images/2.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>homemade Pepperoni Pizza</h3>
+                        <div class="fas fa-angle-left" onclick="prev()"></div>
+                        <div class="fas fa-angle-right" onclick="next()"></div>
+                    </div>
+                </div>
+
+
+
+                <div class="slide">
+                    <div class="image">
+                        <img src="images/3.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>homemade Pepperoni Pizza</h3>
+                        <div class="fas fa-angle-left" onclick="prev()"></div>
+                        <div class="fas fa-angle-right" onclick="next()"></div>
+                    </div>
+                </div>
+            </div>
+            </section>
+    </div>
+
+
+<!-- custom js file -->
+
+
+<script src="script.js"></script>
+</body>
+</html>
