@@ -52,3 +52,12 @@ function prev() {
     index = (index - 1+ slides.length) % slides.length;
     slides[index].classList.add('active');
 }
+
+
+let accordion = document.querySelectorAll('.faq .accordion-container .accordion');
+accordion.forEach( acco => {
+    acco.onclick =()=> {
+        accordion.forEach(remove=> remove.classList.remove('active'));
+        acco.classList.add('active');
+    }
+})
