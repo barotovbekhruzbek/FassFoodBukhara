@@ -68,7 +68,7 @@ section{
     color:var(--white);
     background-color: var(--red);
     cursor: pointer;
-    text-transform: capitalize;
+   
     text-align: center;
 }
 
@@ -793,4 +793,9 @@ section{
         grid-template-columns: 1fr;
     }
 
+}
+
+.name_menyu{
+    padding-bottom: 20px;
+    font-size: 35px;
 }
