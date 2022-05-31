@@ -472,6 +472,7 @@ section{
 }
 
 .about .box-container .box{
+    height: 600px;
     background-color: var(--white);
     border-radius: .5rem;
     padding:2rem;
@@ -480,7 +481,7 @@ section{
 }
 
 .about .box-container .box img{
-    width: 100%;
+    width: 50%;
     margin-bottom: 2rem;
 }
 
