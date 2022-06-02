@@ -57,14 +57,14 @@
                     </div>
 
                     <div class="flex">
-                        <form action="" method="post">
+                        <form action="backend/user_login.php" method="post">
                             <h3>Kirish</h3>
                             <input type="email" name="email" required class="box" placeholder="Emailingizni kiriting" maxlength="20">
                             <input type="password" name="password" required class="box" placeholder="parol" maxlength="20">
                             <input type="submit" value="kirish" name="login" class="btn">
                         </form>
 
-                        <form action="" method="post">
+                        <form action="backend/users_accounts.php" method="post">
                             <h3>registr</h3>
 
                             <input type="text" name="name" required class="box" placeholder="ismingizni kiriting" maxlength="20">
@@ -118,7 +118,7 @@
             <img src="images/1.png" alt="">
             <div class="content">
                 <p>pizza-1 <span>($3/ - x 2)</span></p>
-                <form action="" method="post">
+                <form action="backend/admin_products.php" method="post">
                     <input type="number" class="qty" name="qty" min="1" value="2" max="100">
                     <button type="submit" class="fas fa-edit" name="update_qty"></button>
                 </form>
